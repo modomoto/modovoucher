@@ -33,7 +33,7 @@ $aModule = array(
     'version'      => '0.1',
     'author'       => 'mafi',
     'extend'       => array(
-        'oxvoucher' => 'modovoucher/core/modoOxVoucher'
+        'oxvoucher' => 'modovoucher/core/modooxvoucher'
     ),
     'files'		 => array(
     ),
