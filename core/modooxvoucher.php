@@ -40,7 +40,7 @@ class modoOxVoucher extends modoOxVoucher_parent
 
     protected function _getGenericDiscoutValue( $dPrice )
     {
-    	if($this->getSerie()->oxvoucherseries__modoiscreditvoucher->value ='1'){
+    	if($this->getSerie()->oxvoucherseries__modoiscreditvoucher->value == '1'){
             $oCur = $this->getConfig()->getActShopCurrencyObject();
             $dDiscount = $this->oxvouchers__modocredit->value * $oCur->rate;
     	}else{
